@@ -26,7 +26,7 @@ class LBBox {
 
     } else {
       push();
-      this.visibility = this.visibility-5;
+      this.visibility = this.visibility-100;
       World.remove(world, this.body);
       tint(255, this.visiblity);
     }
