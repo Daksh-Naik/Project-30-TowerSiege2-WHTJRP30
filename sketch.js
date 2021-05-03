@@ -210,5 +210,6 @@ function mouseReleased() {
 function keyPressed () {
 if (keyCode === 32) {
     PolySlingShot.comeBack(OrigPolygon.body);
+    Matter.Body.setPosition(OrigPolygon.body, {x:width/2, y:width/2});
 }
 }
